@@ -90,7 +90,7 @@ input{
     font-weight: 700;
 }
 .tamai-header h2 span{
-    color: #FBA500;
+    color: #2a2939;
 }
 .tamai-header p {
     padding:0 25%;
@@ -100,8 +100,8 @@ input{
 .tamai-btn{
     font-family: 'Montserrat', sans-serif;
     padding: 15px 20px;
-    background: #FBA500;
-    color:#111;
+    background: #2a2939;
+    color:#FFF;
     font-size: 16px;
     transition: .5s;
     font-weight: 600;
@@ -110,7 +110,7 @@ input{
 }
 .tamai-btn:hover,.tamai-btn:focus {
     background:#222;
-    color: #FBA500;
+    color: #2a2939 ;
 }
 .tamai-overlay{
     position: absolute;
@@ -166,7 +166,7 @@ input{
   display: inline-block;
   position: absolute;
   top: 0;
-  background-color: #FBA500;
+  background-color: #283142;
   border-radius: 100%;
   
   -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
@@ -226,7 +226,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     color: #000;
 }
 .navbar-nav .nav-item .active{
-    color: #FBA500!important;
+    color: #2381b8!important;
 }
 .navbar-brand{
     font-family: 'Montserrat', sans-serif;
@@ -236,7 +236,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
 }
 .navbar-brand:hover,
 .navbar-brand:focus{
-    color: #FBA500;
+    color: #2a2939;
 }
 .navbar-nav .nav-item .nav-link{
     font-family: 'Montserrat', sans-serif;
@@ -249,7 +249,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
 }
 .navbar-nav .nav-item .nav-link:hover,
 .navbar-nav .nav-item .nav-link:focus {
-    color: #FBA500!important;
+    color: #2381b8!important;
 }
 .navbar-toggler{
     background-color:transparent;
@@ -261,7 +261,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     background-color:transparent;
 }
 .navbar-toggler i{
-    color: #FBA500;
+    color: #2381b8;
 }
 /*---------------------------------------
     End Header Area css
@@ -288,7 +288,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     margin-bottom: 20px;
 }
 .welcome-text h2 span{
-    color: #FBA500;
+    color: #2381b8;
 }
 .welcome-text h6{
     color: #fff;
@@ -358,13 +358,13 @@ header.sticky .navbar-nav .nav-item .nav-link{
 }
 .owl-next i, .owl-prev i{
     font-size: 32px;
-    color: #FBA500;
+    color: #2a2939;
 }
 .single-slide:hover .owl-prev{
-    background: #FBA500;
+    background: #2a2939;
 }
 .single-slide:hover .owl-next{
-    background: #FBA500;
+    background: #2a2939;
 }
 .single-slide:hover .owl-next i, .single-slide:hover .owl-prev i{
     color: #000;
@@ -440,16 +440,16 @@ header.sticky .navbar-nav .nav-item .nav-link{
     border-radius: 0;
 }
 .card{
-    border-color: #FBA500;
+    border-color: #2a2939;
 }
 .card-header {
     padding: .75rem 1.25rem;
     margin-bottom: 0;
-    background-color: #FBA500;
+    background-color: #2a2939;
     border-bottom: none;
 }
 .card-header h5 .btn{
-    color: #000;
+    color: #FFF;
     text-decoration: none;
     font-weight: 700;
     text-align: left;
@@ -493,11 +493,11 @@ header.sticky .navbar-nav .nav-item .nav-link{
     transform: translate(0, -10px);
 }
 .tamai-box:hover .tamai-details h4{
-    color: #FBA500;
+    color: #2a2939;
 }
 .tamai-icon i{
     font-size: 38px;
-    color: #FBA500;
+    color: #2a2939;
 }
 .tamai-details h4{
     margin-top: 15px;
@@ -523,7 +523,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
 }
 .countdown i{
     font-size: 32px;
-    color: #FBA500;
+    color: #2a2939;
 }
 .countdown h1, 
 .countdown h4{
@@ -541,8 +541,8 @@ header.sticky .navbar-nav .nav-item .nav-link{
 }
 #filters .btn-link {
     font-family: 'Montserrat', sans-serif;
-    color: #111;
-    background-color: #FBA500;
+    color: #FFF;
+    background-color: #2a2939;
     font-weight: 600;
     font-size: 16px;
     text-transform: uppercase;
@@ -552,13 +552,13 @@ header.sticky .navbar-nav .nav-item .nav-link{
 }
 #filters .btn-link:hover,
 #filters .btn-link:focus{
-    color: #222;
-    background-color: #FBA500;
+    color: #FFF;
+    background-color: #2a2939;
 }
 .btn-link:active,
 .btn-link.is-checked{
-    background: #222;
-    color: #FBA500;
+    background: #FFF;
+    color: #2a2939;
 }
 .portfolio-single-item{
     position: relative;
@@ -589,7 +589,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     left: 37%;
     height: 40px;
     width: 40px;
-    background: #FBA500;
+    background: #2a2939;
     text-align: center;
     line-height: 45px;
     border-radius: 50%;
@@ -598,7 +598,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
 .portfolio-overlay .w-zoom i,
 .portfolio-overlay .w-link i{
     font-size: 20px;
-    color: #000;
+    color: #FFF;
 }
 .portfolio-overlay .w-link{
     position: absolute;
@@ -606,7 +606,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     right: 37%;
     height: 40px;
     width: 40px;
-    background: #FBA500;
+    background: #2a2939;
     text-align: center;
     line-height: 45px;
     border-radius: 50%;
@@ -634,7 +634,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     background: #fff;
     font-size: 32px;
     line-height: 70px;
-    color: #FBA500;
+    color: #2a2939;
     border-radius: 50%;
     text-align: center;
     padding-left: 10px;
@@ -655,21 +655,21 @@ header.sticky .navbar-nav .nav-item .nav-link{
 }
 .pricing-table {
     text-align: center;
-    box-shadow: 0 0px 2px #FBA500;
+    box-shadow: 0 0px 2px #2a2939;
     overflow: hidden;
-    background: #fff;
+    background: #FFF;
 }
 .pricing-head h3{
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #000;
+    color: #111;
     font-weight: 600;
 }
 .price-tag{
-    background: #FBA500;
+    background: #2a2939;
 }
 .price-tag h2{
-    color: #000;
+    color: #fff;
     padding: 20px;
 }
 .price-tag h2 span{
@@ -711,14 +711,14 @@ header.sticky .navbar-nav .nav-item .nav-link{
     width: 100%;
     height: 70%;
     top: -100%;
-    background: #FBA500;
+    background: #2a2939;
     transition: .5s;
 }
 .team-text{
     margin-top: 30px;
 }
 .team-text h5{
-    color: #000;
+    color: #FFF;
     font-weight: 600;
 }
 .team-text h6{
@@ -859,7 +859,8 @@ header.sticky .navbar-nav .nav-item .nav-link{
 .subscribe-area .email-btn{
     margin-top: 20px;
     padding: 16px 13px;
-    background: #FBA500;
+    background: #2a2939;
+    color: #FFF;
     border: none;
     cursor: pointer;
     font-weight: 600;
@@ -881,7 +882,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     margin-bottom: 60px;
 }
 .blog-content:hover .blog-title a{
-    color: #FBA500;
+    color: #2a2939;
 }
 .blog-text{
     padding: 15px;
@@ -895,13 +896,13 @@ header.sticky .navbar-nav .nav-item .nav-link{
 }
 .admin{
     padding-top: .75rem;
-    border-top: 1px solid #FBA500;
+    border-top: 1px solid #2a2939;
     text-transform: capitalize;
     margin-bottom: 0px;
 }
 .admin a{
     text-transform: capitalize;
-    color: #FBA500;
+    color: #2a2939;
 }
 /*--------------------------------
     End Blog Section css
@@ -920,7 +921,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     margin-right: 1px;
 }
 .client-area:hover{
-    border-color: #FBA500;
+    border-color: #2a2939;
 }
 .client-area:hover .client-img a{
     opacity: 1;
@@ -950,22 +951,22 @@ header.sticky .navbar-nav .nav-item .nav-link{
     margin-bottom: 40px;
 }
 .contact-info{
-    background: #FBA500;
+    background: #2a2939;
     text-align: center;
     padding: 30px;
 }
 .contact-info .contact-icon i{
     font-size: 32px;
-    color: #000;
+    color: #FFF;
 }
 .contact-info .contact-details h4{
-    color: #000;
+    color: #FFF;
     font-weight: 600;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 .contact-info .contact-details h6{
-    color: #000;
+    color: #FFF;
 }
 
 #map{
@@ -973,7 +974,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     height: 400px;
 }
 .form-control{
-    border-color: #FBA500;
+    border-color: #2a2939;
     border-radius: 0px;
 }
 .send-btn .tamai-btn{
@@ -988,7 +989,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     22.Start Footer-area css
 ---------------------------------------*/
 .footer-area {
-    background: #FBA500;
+    background: #2a2939;
 }
 .footer-text {
     margin-bottom: 20px;
@@ -1042,7 +1043,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     z-index:337
 }
 #scroll-up:hover,#scroll-up:focus {
-    background:#FBA500 none repeat scroll 0 0;
+    background:#2a2939 none repeat scroll 0 0;
     color:#fff
 }
 /*---------------------------------------
@@ -1076,7 +1077,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     text-align: center;
 }
 .select-title h4 a{
-    color: #FBA500;
+    color: #2a2939;
 }
 /*---------------------------------------
     End tamai index.html Section css
@@ -1104,7 +1105,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     text-transform: uppercase;
 }
 .tamai-banner-header .breadcrumb > .active {
-    color: #FBA500;
+    color: #2a2939;
     text-transform: capitalize;
 }
 .tamai-banner-header .breadcrumb-item+.breadcrumb-item::before {
@@ -1193,7 +1194,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     float: right;
 }
 .reply-button a{
-    color: #FBA500;
+    color: #2a2939;
     font-weight: 600;
     text-transform: capitalize;
 }
@@ -1209,7 +1210,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     border: none;
     font-size: 16px;
     text-transform: uppercase;
-    background: #FBA500;
+    background: #2a2939;
     border-radius: 4px;
 }
 .widget-search{
@@ -1219,13 +1220,13 @@ header.sticky .navbar-nav .nav-item .nav-link{
 }
 .widget-search .form-control{
     border-radius: 0;
-    border-color: #FBA500;
+    border-color: #2a2939;
 }
 .widget-search .search-btn {
     position: absolute;
     width: 40px;
     border-radius: 0;
-    background: #FBA500;
+    background: #2a2939;
     color: #fff;
     height: 48px;
     bottom: 1px;
@@ -1249,7 +1250,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     width: 60px;
     height: 3px;
     margin: 10px 0;
-    background: #FBA500;
+    background: #2a2939;
 }
 .widget-list{
     margin-top: 30px;
@@ -1264,7 +1265,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     text-transform: capitalize;
 }
 .widget-list ul li a:hover{
-    color: #FBA500;
+    color: #2a2939;
 }
 .widget-list ul li a span{
     float: right;
@@ -1282,7 +1283,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     font-size: 17px;
 }
 .post-list a:hover{
-    color: #FBA500;
+    color: #2a2939;
 }
 /*------------------------------
   End single-blog.html css
