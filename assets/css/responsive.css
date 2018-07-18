@@ -1,0 +1,193 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .spinner{
+        margin: 30% auto;
+    }
+    .tamai-details h4 {
+        font-size: 19px;
+    }
+    .raq-right {
+        top: 99px;
+    }
+    .client-area {
+        padding: 0px;
+        margin-right: 1px;
+    }
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .spinner{
+        margin: 35% auto;
+    }
+    header {
+        width:100%;
+        z-index:337;
+        position: relative;
+        top: 8px;
+    }
+    .navbar-brand{
+        color: #000;
+    }
+    .navbar-nav .nav-item .nav-link{
+        color: #333;
+    }
+    .navbar-nav .nav-item .nav-link:hover,
+    .navbar-nav .nav-item .nav-link:focus{
+        color: #FBA500;
+    }
+    .banner,
+    .slider-1,
+    .slider-2,
+    .youtube-video,
+    .particle-banner{
+        padding-top: 250px; 
+        padding-bottom: 170px;
+    }
+    .slider-1,
+    .slider-2{
+        padding-left: 30px;
+    }
+    .bg-contact{
+        margin-top: 50px;
+    }
+    .features-img {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .tamai-header p {
+        padding: 0 14%;
+    }
+    .about-btn {
+        margin-bottom: 40px;
+    }
+    .features-img {
+        margin-bottom: 40px;
+    }
+    .countdown {
+        margin-bottom: 60px;
+    }
+    #filters .btn-link {
+        margin-right: 8px;
+    }
+    .pricing-table {
+        margin-bottom: 60px;
+    }
+    .team-area {
+        margin-bottom: 60px;
+    }
+    .raq-right {
+        position: relative;
+        text-align: center;
+    }
+    .blog-content {
+        margin-bottom: 60px;
+    }
+    .contact-area {
+        margin-bottom: 60px;
+    }
+    .single-comment:nth-child(2n+1){
+        padding-left: 0px;
+    }
+    .widget-search{
+        margin-top: 60px;
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .spinner{
+        margin: 80% auto;
+    }
+    .tamai-header p {
+        padding: 0 8%;
+    }
+    header {
+        width:100%;
+        z-index:337;
+        position: relative;
+        top: 8px;
+    }
+    .navbar-brand{
+        color: #000;
+    }
+    .navbar-nav .nav-item .nav-link{
+        color: #333;
+    }
+    .navbar-nav .nav-item .nav-link:hover,
+    .navbar-nav .nav-item .nav-link:focus{
+        color: #FBA500;
+    }
+    .banner,
+    .slider-1,
+    .slider-2,
+    .youtube-video,
+    .particle-banner{
+        padding-top: 150px; 
+        padding-bottom: 120px;
+    }
+    .slider-1,
+    .slider-2{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .bg-contact{
+        margin-top: 50px;
+    }
+    .single-slide .owl-prev {
+        left: -7%;
+    }
+    .single-slide .owl-next {
+        right: -7%;
+    }
+    .welcome-text h6{
+        line-height: 30px;
+    }
+    .about-btn {
+        margin-bottom: 40px;
+    }
+    .features-img {
+        margin-bottom: 40px;
+    }
+    .countdown {
+        margin-bottom: 40px;
+    }
+    #filters .btn-link {
+        margin-right: 8px;
+        margin-bottom: 10px;
+    }
+    .pricing-table {
+        margin-bottom: 40px;
+    }
+    .team-area {
+        margin-bottom: 40px;
+    }
+    .raq-right {
+        position: relative;
+        text-align: center;
+    }
+    .blog-content {
+        margin-bottom: 40px;
+    }
+    .contact-area {
+        margin-bottom: 40px;
+    }
+    .footer-text{
+        text-align: center;
+    }
+    .footer-social-link{
+        float: none;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 0;
+    }
+    .single-comment:nth-child(2n+1){
+        padding-left: 0px;
+    }
+    .widget-search{
+        margin-top: 60px;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}

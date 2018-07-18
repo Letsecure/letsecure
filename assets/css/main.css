@@ -1,0 +1,1289 @@
+/*-------------------------------------
+Template Name: Tamai -Multipurpose Business LandingPage Template.
+Template URI: https://ryetheme.com/
+Description: Tamai is suitable for all creative people, agency, creative business, company, individual or agencies portfolios etc.
+it is well organized, fully customizable and easy to use.
+Author: Ryetheme
+Author URI: https://webtend.net/
+Version: 1.1
+---------------------------------------
+        CSS INDEX
+---------------------------------------
+1.Theme Default CSS (body, link color, overlay etc).
+2.Preloader Area
+3.Header Area Start Here
+4.image Section css
+5.slider Section css
+6.particles Section css
+7.Youtube-vedio Section css
+8.About Section Css
+9.Features Section Css
+10.Service Section Css
+11.Project-area Section Css
+12.Our Work Section Css
+13.Vedio Section Css
+14.Pricing Section Css
+15.Team Section Css
+16.Testimonial Section Css
+17.tamai-faq section css
+18.subscribe section css
+19.Blog Section Css
+20.client section css
+21.Contact Section Css
+22.Footer area Css
+23.Scroll Top Css
+24.tamai index.html Css Here
+---------------------------------------*/
+
+/*---------------------------------------
+    1.Theme Default CSS
+---------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Montserrat:400,500,600,700');
+* {
+    margin:0;
+    padding:0
+}
+a {
+    text-decoration:none
+}
+a:hover,a:focus {
+    text-decoration:none
+}
+li {
+    list-style:none
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    line-height: 1.1
+}
+p{
+    font-size: 15px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #595555;
+}
+section {
+    overflow:hidden
+}
+input{
+    height: 50px;
+}
+.section-padding{
+    padding: 60px 0px;
+}
+.overlay {
+    background: #000;
+    height: 100%;
+    opacity:.8;
+    overflow: hidden;
+    width: 100%;
+}
+.tamai-header {
+    margin-bottom: 60px;
+}
+.tamai-header h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.tamai-header h2 span{
+    color: #FBA500;
+}
+.tamai-header p {
+    padding:0 25%;
+    color: #4d4747;
+    font-weight:500;
+}
+.tamai-btn{
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 20px;
+    background: #FBA500;
+    color:#111;
+    font-size: 16px;
+    transition: .5s;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+.tamai-btn:hover,.tamai-btn:focus {
+    background:#222;
+    color: #FBA500;
+}
+.tamai-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.8;
+}
+.tamai-bg-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000046;
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+    background: linear-gradient(to right, #1CB5E0, #000046);
+    opacity: 0.8;
+}
+.no-padding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/*---------------------------------------
+    Theme Default CSS
+---------------------------------------*/
+/*---------------------------------------
+    2.Start Preloader Area css
+---------------------------------------*/
+.preloader-area {
+    background: #fff;
+    height:100%;
+    overflow:hidden;
+    position:fixed;
+    width:100%;
+    z-index:11000;
+}
+.spinner {
+  margin: 25% auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  
+  -webkit-animation: sk-rotate 2.0s infinite linear;
+  animation: sk-rotate 2.0s infinite linear;
+}
+.dot1, .dot2 {
+  width: 60%;
+  height: 60%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  background-color: #FBA500;
+  border-radius: 100%;
+  
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+.dot2 {
+  top: auto;
+  bottom: 0;
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+@-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+@keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+/*---------------------------------------
+    End Preloader Area css
+---------------------------------------*/
+/*---------------------------------------
+    3.Start Header Area css
+---------------------------------------*/
+header {
+    left:0;
+    position:absolute;
+    top:20px;
+    width:100%;
+    z-index:337;
+}
+header.sticky {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+    position: fixed;
+    top: 0;
+    box-shadow: 0px 0px 5px #ccc;
+}
+header.sticky .navbar-nav .nav-item .nav-link{
+    color:#333;
+}
+.sticky .navbar {
+    margin: 5px 0;
+    transition:.5s
+}
+.sticky .navbar-brand{
+    color: #000;
+}
+.navbar-nav .nav-item .active{
+    color: #FBA500!important;
+}
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.navbar-brand:hover,
+.navbar-brand:focus{
+    color: #FBA500;
+}
+.navbar-nav .nav-item .nav-link{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link:focus {
+    color: #FBA500!important;
+}
+.navbar-toggler{
+    background-color:transparent;
+    border:none;
+    border-radius:0
+}
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color:transparent;
+}
+.navbar-toggler i{
+    color: #FBA500;
+}
+/*---------------------------------------
+    End Header Area css
+---------------------------------------*/
+/*---------------------------------------
+    4.Start image section css
+---------------------------------------*/
+.banner{
+    background: url("../img/slider-1.jpg")no-repeat center fixed;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    padding-top: 265px;
+    padding-bottom: 255px;
+}
+.welcome-text {
+    display: block;
+    position:relative;
+    color: #fff;
+}
+.welcome-text h2{
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.welcome-text h2 span{
+    color: #FBA500;
+}
+.welcome-text h6{
+    color: #fff;
+    margin-bottom: 40px
+}
+.welcome-btn{
+    position: relative;
+}
+.welcome-btn .tamai-btn:hover{
+    background: #fff;
+}
+.bg-contact{
+    background: #fff;
+    padding: 30px;
+}
+.bg-contact .tamai-btn{
+    border: none;
+    cursor: pointer;
+}
+/*---------------------------------------
+    End image section css
+---------------------------------------*/
+/*---------------------------------------
+    5.Start slider Section css
+---------------------------------------*/
+.slider-area {
+    overflow:hidden;
+    transition: .5s;
+}
+.slider-1{
+    background:url(../img/slider-1.jpg) no-repeat center center / cover;
+    color:#fff;
+    position:relative;
+    padding-top: 265px;
+    padding-bottom: 255px;
+}
+.slider-2 {
+    background:url(../img/slider-2.jpg) no-repeat center center / cover;
+    color:#fff;
+    position:relative;
+    padding-top: 265px;
+    padding-bottom: 255px;
+}
+.single-slide .owl-prev {
+    top: 50%;
+    position: absolute;
+    left: -5%;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    text-align: center;
+    line-height: 50px;
+    transition: .5s;
+    border-radius: 5px;
+}
+.single-slide .owl-next {
+    top: 50%;
+    position: absolute;
+    right: -5%;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    text-align: center;
+    line-height: 50px;
+    transition: .5s;
+    border-radius: 5px;
+}
+.owl-next i, .owl-prev i{
+    font-size: 32px;
+    color: #FBA500;
+}
+.single-slide:hover .owl-prev{
+    background: #FBA500;
+}
+.single-slide:hover .owl-next{
+    background: #FBA500;
+}
+.single-slide:hover .owl-next i, .single-slide:hover .owl-prev i{
+    color: #000;
+}
+.slider-area:hover .owl-prev{
+    left: 5%;
+}
+.slider-area:hover .owl-next{
+    right: 5%;
+}
+/*---------------------------------------
+    End slider Section css
+---------------------------------------*/
+
+/*---------------------------------------
+    6.Start youtube-vedio Section css
+---------------------------------------*/
+.youtube-video{
+    padding-top: 265px;
+    padding-bottom: 255px;
+}
+/*---------------------------------------
+    End youtube-vedio Section css
+---------------------------------------*/
+
+/*---------------------------------------
+    7.Start Particles Section css
+---------------------------------------*/
+.particle-banner{
+    background-image: url(../img/particle-bg.jpg);
+    background-color: #000;
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    padding-top: 265px;
+    padding-bottom: 255px;
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: .8;
+}
+/*--------------------------------
+    End Particles Section css
+----------------------------------*/
+/*--------------------------------
+    8.Start About-us Section css
+----------------------------------*/
+.about-btn{
+    margin-top: 30px;
+}
+/*--------------------------------
+    End About-us Section css
+----------------------------------*/
+
+/*--------------------------------
+    9.Start Features Section css
+----------------------------------*/
+.features{
+    background: #f9f9f9;
+}
+.f-bottom {
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+.card-header:first-child {
+    border-radius: 0;
+}
+.card{
+    border-color: #FBA500;
+}
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #FBA500;
+    border-bottom: none;
+}
+.card-header h5 .btn{
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: left;
+}
+.features-area .card .card-header h5 a {
+    display: block;
+    padding: 5px;
+}
+.features-area .card .card-header h5 a i.fa {
+    float: right;
+    font-size: 150%;
+    line-height: 15px;
+    display: none;
+}
+.features-area .card .card-header h5 a[aria-expanded="true"] i.fa.fa-angle-up{
+    display: block;
+}
+.features-area .card .card-header h5 a[aria-expanded="false"] i.fa.fa-angle-down {
+    display: block;
+}
+/*--------------------------------
+    End Features Section css
+----------------------------------*/
+
+/*--------------------------------
+    10.Start Service Section css
+----------------------------------*/
+.tamai-box{
+    text-align: center;
+    border: 1px solid #eee;
+    padding: 30px;
+    margin-bottom: 40px;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.tamai-box:hover{
+    box-shadow:0px 40px 40px rgba(0,0,0,0.1);
+    z-index:100;
+    transform: translate(0, -10px);
+}
+.tamai-box:hover .tamai-details h4{
+    color: #FBA500;
+}
+.tamai-icon i{
+    font-size: 38px;
+    color: #FBA500;
+}
+.tamai-details h4{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+/*--------------------------------
+    End Service Section css
+----------------------------------*/
+
+/*--------------------------------
+    11.Start Project-area Section css
+----------------------------------*/
+.project-area{
+    background: url(../img/project-bg.jpg)no-repeat center fixed;
+    background-size: cover;
+    position: relative
+}
+.countdown i{
+    font-size: 32px;
+    color: #FBA500;
+}
+.countdown h1, 
+.countdown h4{
+    color: #fff;
+}
+/*--------------------------------
+    End Project-area Section css
+----------------------------------*/
+
+/*--------------------------------
+    12.Start Our-Work Section css
+----------------------------------*/
+#filters{
+    margin-bottom: 40px;
+}
+#filters .btn-link {
+    font-family: 'Montserrat', sans-serif;
+    color: #111;
+    background-color: #FBA500;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 0;
+    margin-right: 15px;
+    text-decoration: none;
+}
+#filters .btn-link:hover,
+#filters .btn-link:focus{
+    color: #222;
+    background-color: #FBA500;
+}
+.btn-link:active,
+.btn-link.is-checked{
+    background: #222;
+    color: #FBA500;
+}
+.portfolio-single-item{
+    position: relative;
+    overflow: hidden;
+    transition: .5s;
+}
+.single-item{
+    margin-bottom: 15px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.portfolio-single-item:hover .portfolio-overlay{
+    opacity: .9;
+}
+.portfolio-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0;
+    transition: .5s;
+}
+.portfolio-overlay .w-zoom{
+    position: absolute;
+    top: 45%;
+    left: 37%;
+    height: 40px;
+    width: 40px;
+    background: #FBA500;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    opacity: 1;
+}
+.portfolio-overlay .w-zoom i,
+.portfolio-overlay .w-link i{
+    font-size: 20px;
+    color: #000;
+}
+.portfolio-overlay .w-link{
+    position: absolute;
+    top: 45%;
+    right: 37%;
+    height: 40px;
+    width: 40px;
+    background: #FBA500;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    opacity: 1;
+}
+/*--------------------------------
+    End Our-Work Section css
+----------------------------------*/
+
+/*--------------------------------
+    13.Start Tamai-Video Section css
+----------------------------------*/
+.tamai-video{
+    background: url(../img/project-bg.jpg)no-repeat center fixed;
+    background-size: cover;
+    position: relative
+}
+.video-area{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.video-area i {
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    font-size: 32px;
+    line-height: 70px;
+    color: #FBA500;
+    border-radius: 50%;
+    text-align: center;
+    padding-left: 10px;
+}
+.video-area h4{
+    color: #fff;
+    margin-top: 30px;
+}
+/*--------------------------------
+    End Tamai-Video Section css
+----------------------------------*/
+
+/*--------------------------------
+    14.Start Pricing Section css
+----------------------------------*/
+.pricing{
+    background: #f9f9f9;
+}
+.pricing-table {
+    text-align: center;
+    box-shadow: 0 0px 2px #FBA500;
+    overflow: hidden;
+    background: #fff;
+}
+.pricing-head h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: 600;
+}
+.price-tag{
+    background: #FBA500;
+}
+.price-tag h2{
+    color: #000;
+    padding: 20px;
+}
+.price-tag h2 span{
+    font-size: 12px;
+    font-weight: 600;
+}
+.pricing-body{
+    margin-bottom: 20px;
+}
+.pricing-body li{
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.pricing-btn{
+    margin-bottom: 30px;
+}
+/*--------------------------------
+    End Pricing Section css
+----------------------------------*/
+
+/*--------------------------------
+    15.Start Team Section css
+----------------------------------*/
+.team-img {
+    overflow:hidden;
+    position:relative;
+    text-align: center;
+    transition: .5s;
+}
+.team-img:hover .team-overlay{
+    top: 0;
+    opacity: .9;
+}
+.team-img img {
+    width: 100%;
+}
+.team-overlay {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: -100%;
+    background: #FBA500;
+    transition: .5s;
+}
+.team-text{
+    margin-top: 30px;
+}
+.team-text h5{
+    color: #000;
+    font-weight: 600;
+}
+.team-text h6{
+    color: #222;
+    font-weight: 600;
+}
+.team-info {
+    padding:10px;
+    color: #fff;
+}
+.team-info ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.team-info ul li i {
+    background:#333;
+    border-radius:30px;
+    color: #fff;
+    height:40px;
+    padding:13px;
+    width:40px
+}
+/*--------------------------------
+    End Team Section css
+----------------------------------*/
+
+/*--------------------------------
+    16.Start testimonial Section css
+----------------------------------*/
+.testimonial{
+    background: url(../img/project-bg.jpg)no-repeat center fixed;
+    background-size: cover;
+    position: relative
+}
+.overlay-text h2, .overlay-text p{
+    color: #fff;
+}
+.member{
+    margin-bottom: 30px;
+}
+.member img {
+    width: 130px !important;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.member h5{
+    margin-top: 20px;
+    color: #fff;
+}
+.member span{
+    color: #fff;
+    text-transform: uppercase;
+}
+.review-text p{
+    color: #fff;
+}
+.owl-carousel .owl-dots {
+    display:flex;
+    -ms-display:flex;
+    -webkit-display:flex;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    margin-top:1rem
+}
+.owl-carousel .owl-dot {
+    height:10px;
+    width:20px;
+    border:1px solid #fff;
+    border-radius:10px;
+    margin:0 .2rem;
+    -webkit-transition:all .25s ease-in-out;
+    transition:all .25s ease-in-out
+}
+.owl-carousel .owl-dot.active {
+    height:10px;
+    width:10px;
+    background-color:#fff;
+    border-radius:50%
+}
+/*--------------------------------
+    End testimonial Section css
+----------------------------------*/
+
+/*--------------------------------
+    17.Start FAQ Section css
+----------------------------------*/
+.faq-content .card .card-header h5 a {
+    display: block;
+    padding: 5px;
+}
+.faq-content .card .card-header h5 a i.fa {
+    float: right;
+    font-size: 150%;
+    line-height: 15px;
+    display: none;
+}
+.faq-content .card .card-header h5 a[aria-expanded="true"] i.fa.fa-angle-up{
+    display: block;
+}
+.faq-content .card .card-header h5 a[aria-expanded="false"] i.fa.fa-angle-down {
+    display: block;
+}
+.raq-right{
+    position: absolute;
+    top: 75px;
+}
+.raq-right img {
+    height: 376px;
+}
+/*--------------------------------
+    End FAQ Section css
+----------------------------------*/
+
+/*--------------------------------
+    18.Start Subscribe Section css
+----------------------------------*/
+.subscribe{
+    background: url(../img/email-bg.jpg)no-repeat center fixed;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.subscribe-area{
+    position: relative;
+}
+.tamai-title h2,
+.tamai-title p{
+    color: #fff;
+}
+.subscribe-area .form-control{
+    position: relative;
+}
+.subscribe-area .email-btn{
+    margin-top: 20px;
+    padding: 16px 13px;
+    background: #FBA500;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+.subscribe-area .email-btn i{
+    margin-right: 10px;
+}
+.form-message h5, .form-message label{
+    color: #fff;
+}
+/*--------------------------------
+    End Subscribe Section css
+----------------------------------*/
+
+/*--------------------------------
+    19.Start Blog Section css
+----------------------------------*/
+.blog-content{
+    margin-bottom: 60px;
+}
+.blog-content:hover .blog-title a{
+    color: #FBA500;
+}
+.blog-text{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-top:none;
+}
+.blog-title a{
+    color: #222;
+    font-weight: 600;
+    transition: .5s;
+}
+.admin{
+    padding-top: .75rem;
+    border-top: 1px solid #FBA500;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+.admin a{
+    text-transform: capitalize;
+    color: #FBA500;
+}
+/*--------------------------------
+    End Blog Section css
+----------------------------------*/
+
+/*--------------------------------
+    20.Start client Section css
+----------------------------------*/
+.client{
+    background: #f9f9f9;
+}
+.client-area {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 1px;
+}
+.client-area:hover{
+    border-color: #FBA500;
+}
+.client-area:hover .client-img a{
+    opacity: 1;
+}
+.client-img{
+    text-align: center;
+}
+.client-img a{
+    opacity: .7;
+}
+.client-img img {
+    width: 40% !important;
+    height: 100%;
+    margin: 0 auto;
+}
+.responsive .owl-nav{
+    display: none;
+}
+/*--------------------------------
+    End client Section css
+----------------------------------*/
+
+/*--------------------------------
+    21.Start Contact Section css
+----------------------------------*/
+.contact-bottom{
+    margin-bottom: 40px;
+}
+.contact-info{
+    background: #FBA500;
+    text-align: center;
+    padding: 30px;
+}
+.contact-info .contact-icon i{
+    font-size: 32px;
+    color: #000;
+}
+.contact-info .contact-details h4{
+    color: #000;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.contact-info .contact-details h6{
+    color: #000;
+}
+
+#map{
+    width: 100%;
+    height: 400px;
+}
+.form-control{
+    border-color: #FBA500;
+    border-radius: 0px;
+}
+.send-btn .tamai-btn{
+    border:none;
+    cursor: pointer;
+}
+/*--------------------------------
+    End Contact Section css
+----------------------------------*/
+
+/*---------------------------------------
+    22.Start Footer-area css
+---------------------------------------*/
+.footer-area {
+    background: #FBA500;
+}
+.footer-text {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.footer-text p {
+    color:#fff;
+    margin-bottom: 10px;
+}
+.footer-social-link {
+    float: right;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.footer-social-link ul li {
+    display:inline-block;
+    margin-right: 10px;
+}
+.footer-social-link ul li a i {
+    background: #000;
+    color:#fff;
+    width:40px;
+    height:40px;
+    font-size: 16px;
+    border-radius:30px;
+    line-height: 40px;
+    text-align:center;
+}
+/*---------------------------------------
+    End Footer-area css
+---------------------------------------*/
+/*---------------------------------------
+    23.Start #scroll-up css
+---------------------------------------*/
+#scroll-up {
+    background:#333;
+    border-radius:50%;
+    bottom:10px;
+    color:#fff;
+    cursor:pointer;
+    display:none;
+    font-size:24px;
+    height:46px;
+    line-height:42px;
+    position:fixed;
+    right:10px;
+    text-align:center;
+    text-decoration:none;
+    transition:.3s;
+    width:46px;
+    z-index:337
+}
+#scroll-up:hover,#scroll-up:focus {
+    background:#FBA500 none repeat scroll 0 0;
+    color:#fff
+}
+/*---------------------------------------
+    End #scroll-up css
+---------------------------------------*/
+/*---------------------------------------
+    24.Start tamai index.html Section css
+---------------------------------------*/
+.tamai-banner{
+    background: url(../img/tamai-banner-bg.jpg) no-repeat center fixed;
+    background-size: cover;
+    position: relative;
+}
+.tamai-b-header{
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+.tamai-b-header h2, .tamai-b-header  p{
+    color: #fff;
+}
+.tamai-b-header  p{
+    padding: 0 16%;
+}
+.select-index{
+    margin-bottom: 60px;
+}
+.select-demo-item{
+    margin-bottom: 20px;
+}
+.select-title{
+    text-align: center;
+}
+.select-title h4 a{
+    color: #FBA500;
+}
+/*---------------------------------------
+    End tamai index.html Section css
+---------------------------------------*/
+
+
+/*---------------------------------------
+  18.Start mizapp-banner section css
+----------------------------------------*/
+.tamai-banner {
+    background:#1259e8;
+    position: relative;
+}
+.tamai-banner-header{
+    margin-bottom: 50px;
+    margin-top: 200px;
+    color: #fff;
+}
+.tamai-banner-header .breadcrumb{
+    background-color: transparent;
+    padding: 0px;
+}
+.tamai-banner-header .breadcrumb li a{
+    color: #fff;
+    text-transform: uppercase;
+}
+.tamai-banner-header .breadcrumb > .active {
+    color: #FBA500;
+    text-transform: capitalize;
+}
+.tamai-banner-header .breadcrumb-item+.breadcrumb-item::before {
+    color: #fff;
+}
+/*--------------------------------
+  End mizapp-banner section css
+--------------------------------*/
+/*--------------------------------
+  22.Start single-blog.html css
+--------------------------------*/
+.post-admin{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.post-admin span{
+    margin-right: 30px;
+}
+.post-admin span i{
+    color: #2c2c2c;
+    font-size: 22px;
+    margin-right: 8px;
+}
+.single-btext{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.single-post-share{
+    margin-bottom: 40px;
+}
+.single-post-share h4{
+    margin-bottom: 15px;
+}
+.single-post-share li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.single-post-share li i {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    background: #1259e8;
+    border-radius: 30px;
+    padding: 7px;
+    text-align: center;
+    font-size: 16px;
+}
+.single-post-share li i:hover{
+    background: #222;
+    color: #fff;
+    transition: .5s;
+}
+.single-comment {
+    border-bottom: 2px solid #1259e8;
+    overflow: hidden;
+    padding: 20px 0px;
+}
+.single-comment:nth-child(2n+1){
+    padding-left: 100px;
+}
+.single-comment:last-child{
+    border:none;
+}
+.comment-area h2{
+    margin-bottom: 30px;
+}
+.comment-img {
+    float: left;
+}
+.comment-img img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.comment-details{
+    margin-left: 130px;
+}
+.comment-details li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.comment-details li i{
+    margin-right: 10px;
+}
+.reply-button{
+    float: right;
+}
+.reply-button a{
+    color: #FBA500;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.comment-form h4{
+    margin-bottom: 30px;
+}
+.post-button{
+    margin-top: 40px;
+}
+.post-button .comment-btn{
+    padding: 15px 25px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #FBA500;
+    border-radius: 4px;
+}
+.widget-search{
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 40px;
+}
+.widget-search .form-control{
+    border-radius: 0;
+    border-color: #FBA500;
+}
+.widget-search .search-btn {
+    position: absolute;
+    width: 40px;
+    border-radius: 0;
+    background: #FBA500;
+    color: #fff;
+    height: 48px;
+    bottom: 1px;
+    right: 0px;
+    border:  none;
+    line-height: 50px;
+}
+.widget-category{
+    margin-bottom: 20px;
+}
+.w-title{
+    position: relative;
+}
+.w-title h3{
+    font-weight: 600;
+}
+.w-title h3::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 60px;
+    height: 3px;
+    margin: 10px 0;
+    background: #FBA500;
+}
+.widget-list{
+    margin-top: 30px;
+    position: relative;
+}
+.widget-list ul li{
+    line-height: 30px;
+}
+.widget-list ul li a{
+    color: #6d6d6d;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.widget-list ul li a:hover{
+    color: #FBA500;
+}
+.widget-list ul li a span{
+    float: right;
+}
+.sidebar-title h4 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.post-area{
+    margin-top: 30px;
+}
+.post-list a{
+    color: #6d6d6d;
+    font-weight: 600;
+    font-size: 17px;
+}
+.post-list a:hover{
+    color: #FBA500;
+}
+/*------------------------------
+  End single-blog.html css
+--------------------------------*/
