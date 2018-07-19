@@ -47,7 +47,7 @@ a {
     text-decoration:none
 }
 a:hover,a:focus {
-    text-decoration:none
+    text-decoration:none;
 }
 li {
     list-style:none
@@ -90,7 +90,7 @@ input{
     font-weight: 700;
 }
 .tamai-header h2 span{
-    color: #2a2939;
+    color: #2381b8;
 }
 .tamai-header p {
     padding:0 25%;
@@ -100,7 +100,7 @@ input{
 .tamai-btn{
     font-family: 'Montserrat', sans-serif;
     padding: 15px 20px;
-    background: #2a2939;
+    background-image: linear-gradient(90deg,#495a7e 0,#333f5c 100%);
     color:#FFF;
     font-size: 16px;
     transition: .5s;
@@ -166,7 +166,7 @@ input{
   display: inline-block;
   position: absolute;
   top: 0;
-  background-color: #283142;
+  background-color: #2381b8;
   border-radius: 100%;
   
   -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
@@ -236,7 +236,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
 }
 .navbar-brand:hover,
 .navbar-brand:focus{
-    color: #2a2939;
+    color: #2381b8;
 }
 .navbar-nav .nav-item .nav-link{
     font-family: 'Montserrat', sans-serif;
@@ -358,7 +358,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
 }
 .owl-next i, .owl-prev i{
     font-size: 32px;
-    color: #2a2939;
+    color: #2381b8;
 }
 .single-slide:hover .owl-prev{
     background: #2a2939;
@@ -445,7 +445,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
 .card-header {
     padding: .75rem 1.25rem;
     margin-bottom: 0;
-    background-color: #2a2939;
+    background-image: linear-gradient(90deg,#495a7e 0,#333f5c 100%);
     border-bottom: none;
 }
 .card-header h5 .btn{
@@ -454,6 +454,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     font-weight: 700;
     text-align: left;
 }
+
 .features-area .card .card-header h5 a {
     display: block;
     padding: 5px;
@@ -493,11 +494,11 @@ header.sticky .navbar-nav .nav-item .nav-link{
     transform: translate(0, -10px);
 }
 .tamai-box:hover .tamai-details h4{
-    color: #2a2939;
+    color: #2381b8;
 }
 .tamai-icon i{
     font-size: 38px;
-    color: #2a2939;
+    color: #2381b8;
 }
 .tamai-details h4{
     margin-top: 15px;
@@ -523,7 +524,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
 }
 .countdown i{
     font-size: 32px;
-    color: #2a2939;
+    color: #2381b8;
 }
 .countdown h1, 
 .countdown h4{
@@ -542,7 +543,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
 #filters .btn-link {
     font-family: 'Montserrat', sans-serif;
     color: #FFF;
-    background-color: #2a2939;
+    background-image: linear-gradient(90deg,#495a7e 0,#333f5c 100%);
     font-weight: 600;
     font-size: 16px;
     text-transform: uppercase;
@@ -558,7 +559,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
 .btn-link:active,
 .btn-link.is-checked{
     background: #FFF;
-    color: #2a2939;
+    color: #2381b8;
 }
 .portfolio-single-item{
     position: relative;
@@ -634,7 +635,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     background: #fff;
     font-size: 32px;
     line-height: 70px;
-    color: #2a2939;
+    color: #2381b8;
     border-radius: 50%;
     text-align: center;
     padding-left: 10px;
@@ -666,7 +667,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     font-weight: 600;
 }
 .price-tag{
-    background: #2a2939;
+    background-image: linear-gradient(90deg,#495a7e 0,#333f5c 100%);
 }
 .price-tag h2{
     color: #fff;
@@ -859,7 +860,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
 .subscribe-area .email-btn{
     margin-top: 20px;
     padding: 16px 13px;
-    background: #2a2939;
+    background-image: linear-gradient(90deg,#495a7e 0,#333f5c 100%);
     color: #FFF;
     border: none;
     cursor: pointer;
@@ -882,7 +883,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     margin-bottom: 60px;
 }
 .blog-content:hover .blog-title a{
-    color: #2a2939;
+    color: #2381b8;
 }
 .blog-text{
     padding: 15px;
@@ -902,7 +903,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
 }
 .admin a{
     text-transform: capitalize;
-    color: #2a2939;
+    color: #2381b8;
 }
 /*--------------------------------
     End Blog Section css
@@ -951,7 +952,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     margin-bottom: 40px;
 }
 .contact-info{
-    background: #2a2939;
+    background-image: linear-gradient(90deg,#495a7e 0,#333f5c 100%);
     text-align: center;
     padding: 30px;
 }
@@ -989,7 +990,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     22.Start Footer-area css
 ---------------------------------------*/
 .footer-area {
-    background: #2a2939;
+    background: #495a7e;
 }
 .footer-text {
     margin-bottom: 20px;
@@ -1077,7 +1078,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     text-align: center;
 }
 .select-title h4 a{
-    color: #2a2939;
+    color: #2381b8;
 }
 /*---------------------------------------
     End tamai index.html Section css
@@ -1105,7 +1106,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     text-transform: uppercase;
 }
 .tamai-banner-header .breadcrumb > .active {
-    color: #2a2939;
+    color: #2381b8;
     text-transform: capitalize;
 }
 .tamai-banner-header .breadcrumb-item+.breadcrumb-item::before {
@@ -1194,7 +1195,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     float: right;
 }
 .reply-button a{
-    color: #2a2939;
+    color: #2381b8;
     font-weight: 600;
     text-transform: capitalize;
 }
@@ -1265,7 +1266,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     text-transform: capitalize;
 }
 .widget-list ul li a:hover{
-    color: #2a2939;
+    color: #2381b8;
 }
 .widget-list ul li a span{
     float: right;
@@ -1283,7 +1284,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     font-size: 17px;
 }
 .post-list a:hover{
-    color: #2a2939;
+    color: #2381b8;
 }
 /*------------------------------
   End single-blog.html css
