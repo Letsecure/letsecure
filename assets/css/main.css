@@ -932,16 +932,22 @@ header.sticky .navbar-nav .nav-item .nav-link{
     20.Start client Section css
 ----------------------------------*/
 .client{
-    background: #f9f9f9;
+    
+    background-image: linear-gradient(90deg,#2a2939 0,#333f5c 100%);
 }
+
+.client .tamai-header, .client .tamai-header p{
+    color: #FFF;
+}
+
 .client-area {
-    border: 1px solid #ccc;
+    border: 1px solid #2a2939;
     padding: 20px;
     margin-left: 20px;
     margin-right: 1px;
 }
 .client-area:hover{
-    border-color: #2a2939;
+    border-color: #FFF;
 }
 .client-area:hover .client-img a{
     opacity: 1;
