@@ -84,7 +84,6 @@ input{
 }
 .tamai-header {
     margin-bottom: 60px;
-    color: #595555;
 }
 .tamai-header h2 {
     text-transform: uppercase;
@@ -423,9 +422,6 @@ header.sticky .navbar-nav .nav-item .nav-link{
 .about-btn{
     margin-top: 30px;
 }
-.about-inifo{
-    color: #595555;
-}
 /*--------------------------------
     End About-us Section css
 ----------------------------------*/
@@ -434,18 +430,8 @@ header.sticky .navbar-nav .nav-item .nav-link{
     9.Start Features Section css
 ----------------------------------*/
 .features{
-    background-image: linear-gradient(90deg,#2a2939 0,#333f5c 100%);
-    
+    background: #f9f9f9;
 }
-
-.features .tamai-header{
-    color: #FFF;
-}
-
-.features .tamai-header p{
-    color: #FFF;
-}
-
 .f-bottom {
     margin-bottom: 15px;
     border-radius: 0;
@@ -457,15 +443,10 @@ header.sticky .navbar-nav .nav-item .nav-link{
     border-color: #2a2939;
 }
 .card-header {
-    color: #FFF;
     padding: .75rem 1.25rem;
     margin-bottom: 0;
     background-image: linear-gradient(90deg,#495a7e 0,#333f5c 100%);
     border-bottom: none;
-}
-
-.card-header p{
-    color: #FFF;
 }
 .card-header h5 .btn{
     color: #FFF;
