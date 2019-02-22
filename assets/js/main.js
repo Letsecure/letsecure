@@ -19,7 +19,8 @@
     $(window).on('scroll', function () {
         var scroll = $(window).scrollTop();
         if (scroll < 100) {
-            $("#header-area").removeClass("sticky");
+            // $("#header-area").removeClass("sticky");
+            console.log('chi');
         } else {
             $("#header-area").addClass("sticky");
         }
