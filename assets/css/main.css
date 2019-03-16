@@ -894,7 +894,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
 .subscribe-area .email-btn{
     margin-top: 20px;
     padding: 16px 13px;
-    background-image: linear-gradient(90deg,#495a7e 0,#333f5c 100%);
+    background-image: linear-gradient(90deg,#292c45 0,#333f5c 100%);
     color: #FFF;
     border: none;
     cursor: pointer;
@@ -1039,7 +1039,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     22.Start Footer-area css
 ---------------------------------------*/
 .footer-area {
-    background: #495a7e;
+    background: #292c45;
 }
 .footer-text {
     margin-bottom: 20px;
