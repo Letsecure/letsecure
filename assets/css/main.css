@@ -91,7 +91,7 @@ input{
     font-weight: 700;
 }
 .tamai-header h2 span{
-    color: #2172b3;
+    color: #6a89cc;
 }
 .tamai-header p {
     font-size: 18px;
@@ -167,7 +167,7 @@ input{
   display: inline-block;
   position: absolute;
   top: 0;
-  background-color: #2172b3;
+  background-color: #292c45;
   border-radius: 100%;
   -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
   animation: sk-bounce 2.0s infinite ease-in-out;
@@ -300,7 +300,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     margin-bottom: 20px;
 }
 .welcome-text h2 span{
-    color: #2172b3;
+    color: #6a89cc;
     font-weight: 900;
 }
 .welcome-text h6{
@@ -371,7 +371,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
 }
 .owl-next i, .owl-prev i{
     font-size: 32px;
-    color: #2172b3;
+    color: #292c45;
 }
 .single-slide:hover .owl-prev{
     background: #2a2939;
@@ -528,11 +528,11 @@ header.sticky .navbar-nav .nav-item .nav-link{
     transform: translate(0, -10px);
 }
 .tamai-box:hover .tamai-details h4{
-    color: #2172b3;
+    color: #292c45;
 }
 .tamai-icon i{
     font-size: 38px;
-    color: #2172b3;
+    color: #292c45;
 }
 .tamai-details h4{
     margin-top: 15px;
@@ -558,7 +558,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
 }
 .countdown i{
     font-size: 32px;
-    color: #2172b3;
+    color: #6a89cc;
 }
 .countdown h1,
 .countdown h4{
@@ -593,7 +593,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
 .btn-link:active,
 .btn-link.is-checked{
     background: #FFF;
-    color: #2172b3;
+    color: #292c45;
 }
 .portfolio-single-item{
     position: relative;
@@ -669,7 +669,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     background: #fff;
     font-size: 32px;
     line-height: 70px;
-    color: #2172b3;
+    color: #292c45;
     border-radius: 50%;
     text-align: center;
     padding-left: 10px;
@@ -917,7 +917,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     margin-bottom: 60px;
 }
 .blog-content:hover .blog-title a{
-    color: #2172b3;
+    color: #292c45;
 }
 .blog-text{
     padding: 15px;
@@ -937,7 +937,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
 }
 .admin a{
     text-transform: capitalize;
-    color: #2172b3;
+    color: #292c45;
 }
 /*--------------------------------
     End Blog Section css
@@ -1002,6 +1002,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     margin-bottom: 40px;
 }
 .contact-info{
+    background-color: #292c45;
     text-align: center;
     padding: 30px;
 }
@@ -1127,7 +1128,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     text-align: center;
 }
 .select-title h4 a{
-    color: #2172b3;
+    color: #292c45;
 }
 /*---------------------------------------
     End tamai index.html Section css
@@ -1155,7 +1156,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     text-transform: uppercase;
 }
 .tamai-banner-header .breadcrumb > .active {
-    color: #2172b3;
+    color: #292c45;
     text-transform: capitalize;
 }
 .tamai-banner-header .breadcrumb-item+.breadcrumb-item::before {
@@ -1244,7 +1245,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     float: right;
 }
 .reply-button a{
-    color: #2172b3;
+    color: #292c45;
     font-weight: 600;
     text-transform: capitalize;
 }
@@ -1315,7 +1316,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     text-transform: capitalize;
 }
 .widget-list ul li a:hover{
-    color: #2172b3;
+    color: #292c45;
 }
 .widget-list ul li a span{
     float: right;
@@ -1333,7 +1334,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     font-size: 17px;
 }
 .post-list a:hover{
-    color: #2172b3;
+    color: #292c45;
 }
 /*------------------------------
   End single-blog.html css
