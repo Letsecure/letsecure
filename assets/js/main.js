@@ -1,8 +1,8 @@
 (function($) {
-  'use strict';  
+  'use strict';
     /*======================================/
                   Preloader JS
-    ======================================*/  
+    ======================================*/
       var prealoaderOption = $(window);
       prealoaderOption.on("load", function () {
           var preloader = jQuery('.spinner');
@@ -138,7 +138,7 @@
                 $(this).addClass('is-checked');
             });
         });
-    });   
+    });
     /*======================================/
                   isotope js
     ======================================*/
@@ -179,26 +179,26 @@
 
     /*======================================
                     google map JS
-    ======================================*/ 
+    ======================================*/
         $(window).on('load', function initMap() {
             var map = new google.maps.Map(document.getElementById('map'), {
                 center: {
-                  lat: 23.810332,
-                  lng: 90.412518
+                  lat: 34.2535048,
+                  lng: -6.5876927
                 },
                 zoom: 13
             });
             // Let's also add a marker while we're at it
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(23.810332, 90.412518),
+                position: new google.maps.LatLng(34.2535048,-6.5876927),
                 map: map,
                     icon: {
                         url: 'assets/img/marker.png',
                     },
                 animation: google.maps.Animation.BOUNCE
             });
-        });    
-    /*======================================  
+        });
+    /*======================================
                     google map JS
     ======================================*/
     /*=======================
@@ -223,7 +223,7 @@
 	/*=======================
        Ajax contact form js
     =========================*/
-	
+
 	$("#contact-form").submit(function (event) {
 
         var successMail = '#success' ;
@@ -276,7 +276,7 @@
         $('.mailchimp').ajaxChimp({
             language: 'es',
             callback: mailchimpCallback,
-            url: "" 
+            url: ""
             //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
         });
     }
@@ -297,9 +297,8 @@
         3: 'The domain portion of the email address is invalid (the portion after the @: )',
         4: 'The username portion of the email address is invalid (the portion before the @: )',
         5: 'This email address looks fake or invalid. Please enter a real email address'
-    }; 
+    };
     /*=======================
        Ajax Mailchimp form js
-    =========================*/ 
-})(window.jQuery);   
-   
+    =========================*/
+})(window.jQuery);
