@@ -91,7 +91,7 @@ input{
     font-weight: 700;
 }
 .tamai-header h2 span{
-    color: #1e3799;
+    color: #2172b3;
 }
 .tamai-header p {
     font-size: 18px;
@@ -102,7 +102,7 @@ input{
 .tamai-btn{
     font-family: 'Montserrat', sans-serif;
     padding: 15px 20px;
-    background-color:#0c2461;
+    background-color:#292c45;
     color:#FFF;
     font-size: 16px;
     transition: .5s;
@@ -167,7 +167,7 @@ input{
   display: inline-block;
   position: absolute;
   top: 0;
-  background-color: #1e3799;
+  background-color: #2172b3;
   border-radius: 100%;
   -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
   animation: sk-bounce 2.0s infinite ease-in-out;
@@ -209,11 +209,11 @@ header {
     z-index:337;
 }
 header.sticky {
-    background-color: #0c2461;
-    border-bottom: 1px solid #0c2461;
+    background-color: #292c45;
+    border-bottom: 1px solid #292c45;
     position: fixed;
     top: 0;
-    box-shadow: 0px 0px 5px #0c2461;
+    box-shadow: 0px 0px 5px #292c45;
 }
 header.sticky .navbar-nav .nav-item .nav-link{
     color:#adb2bf;
@@ -300,7 +300,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     margin-bottom: 20px;
 }
 .welcome-text h2 span{
-    color: #1e3799;
+    color: #2172b3;
     font-weight: 900;
 }
 .welcome-text h6{
@@ -371,7 +371,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
 }
 .owl-next i, .owl-prev i{
     font-size: 32px;
-    color: #1e3799;
+    color: #2172b3;
 }
 .single-slide:hover .owl-prev{
     background: #2a2939;
@@ -449,7 +449,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     9.Start Features Section css
 ----------------------------------*/
 .features{
-    background-image: linear-gradient(90deg,#0c2461 0,#0c2461 100%);
+    background-image: linear-gradient(90deg,#292c45 0,#292c45 100%);
 
 }
 
@@ -475,7 +475,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     color: #FFF;
     padding: .75rem 1.25rem;
     margin-bottom: 0;
-    background-image: linear-gradient(90deg,#0c2461 0,#0c2461 100%);
+    background-image: linear-gradient(90deg,#292c45 0,#292c45 100%);
     border-bottom: none;
 }
 
@@ -528,11 +528,11 @@ header.sticky .navbar-nav .nav-item .nav-link{
     transform: translate(0, -10px);
 }
 .tamai-box:hover .tamai-details h4{
-    color: #1e3799;
+    color: #2172b3;
 }
 .tamai-icon i{
     font-size: 38px;
-    color: #1e3799;
+    color: #2172b3;
 }
 .tamai-details h4{
     margin-top: 15px;
@@ -558,7 +558,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
 }
 .countdown i{
     font-size: 32px;
-    color: #1e3799;
+    color: #2172b3;
 }
 .countdown h1,
 .countdown h4{
@@ -577,7 +577,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
 #filters .btn-link {
     font-family: 'Montserrat', sans-serif;
     color: #FFF;
-    background-image: linear-gradient(90deg,#0c2461 0,#0c2461 100%);
+    background-image: linear-gradient(90deg,#292c45 0,#292c45 100%);
     font-weight: 600;
     font-size: 16px;
     text-transform: uppercase;
@@ -593,7 +593,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
 .btn-link:active,
 .btn-link.is-checked{
     background: #FFF;
-    color: #1e3799;
+    color: #2172b3;
 }
 .portfolio-single-item{
     position: relative;
@@ -669,7 +669,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     background: #fff;
     font-size: 32px;
     line-height: 70px;
-    color: #1e3799;
+    color: #2172b3;
     border-radius: 50%;
     text-align: center;
     padding-left: 10px;
@@ -701,7 +701,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     font-weight: 600;
 }
 .price-tag{
-    background-image: linear-gradient(90deg,#0c2461 0,#2c3d66 100%);
+    background-image: linear-gradient(90deg,#292c45 0,#2c3d66 100%);
 }
 .price-tag h2{
     color: #fff;
@@ -917,7 +917,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     margin-bottom: 60px;
 }
 .blog-content:hover .blog-title a{
-    color: #1e3799;
+    color: #2172b3;
 }
 .blog-text{
     padding: 15px;
@@ -937,7 +937,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
 }
 .admin a{
     text-transform: capitalize;
-    color: #1e3799;
+    color: #2172b3;
 }
 /*--------------------------------
     End Blog Section css
@@ -988,11 +988,20 @@ header.sticky .navbar-nav .nav-item .nav-link{
 /*--------------------------------
     21.Start Contact Section css
 ----------------------------------*/
+#contact {
+    background: url(../img/project-bg.jpg)no-repeat center fixed;
+    background-size: cover;
+    position: relative;
+    color: #FFF !important;
+}
+#contact h2, #contact p {
+    color: #FFF;
+}
+
 .contact-bottom{
     margin-bottom: 40px;
 }
 .contact-info{
-    background-image: linear-gradient(90deg,#495a7e 0,#333f5c 100%);
     text-align: center;
     padding: 30px;
 }
@@ -1118,7 +1127,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     text-align: center;
 }
 .select-title h4 a{
-    color: #1e3799;
+    color: #2172b3;
 }
 /*---------------------------------------
     End tamai index.html Section css
@@ -1146,7 +1155,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     text-transform: uppercase;
 }
 .tamai-banner-header .breadcrumb > .active {
-    color: #1e3799;
+    color: #2172b3;
     text-transform: capitalize;
 }
 .tamai-banner-header .breadcrumb-item+.breadcrumb-item::before {
@@ -1235,7 +1244,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     float: right;
 }
 .reply-button a{
-    color: #1e3799;
+    color: #2172b3;
     font-weight: 600;
     text-transform: capitalize;
 }
@@ -1306,7 +1315,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     text-transform: capitalize;
 }
 .widget-list ul li a:hover{
-    color: #1e3799;
+    color: #2172b3;
 }
 .widget-list ul li a span{
     float: right;
@@ -1324,7 +1333,7 @@ header.sticky .navbar-nav .nav-item .nav-link{
     font-size: 17px;
 }
 .post-list a:hover{
-    color: #1e3799;
+    color: #2172b3;
 }
 /*------------------------------
   End single-blog.html css
